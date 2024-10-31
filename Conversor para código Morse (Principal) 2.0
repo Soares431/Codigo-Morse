@@ -24,6 +24,7 @@ while True:
      break        
 time.sleep(1)
 for i in k:
+          print(i)
           if i == "a": # ( .- )
               gpio.output(5, 1)
               time.sleep(0.5)
